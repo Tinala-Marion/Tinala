@@ -1,7 +1,12 @@
 /* Textes-5 */
+
 .textes-5 {
     background-position: left;
     background-size: cover;
+}
+
+.textes-5 * {
+    color: white;
 }
 
 .textes-5 h2 {

@@ -1,370 +1,355 @@
 .section_contact {
-  display: flex;
-  align-items: center;
-  padding-top: 110px;
-  padding-bottom: 110px;
-  position: relative;
-  z-index: 40;
+    display: flex;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    position: relative;
+    z-index: 40;
+    background-color: var(--couleur-12);
 }
 
 section.section_contact .gauche {
-  width: calc(50% - 100px);
-  max-width: calc(100% - 550px);
+    width: calc(50% - 100px);
+    max-width: calc(100% - 550px);
 }
 
 section.section_contact .droite {
-  position: absolute;
-  right: 15vw;
-  width: 35vw;
-  min-width: 550px;
+    position: absolute;
+    right: 15vw;
+    width: 35vw;
+    min-width: 550px;
 }
 
 section.section_contact .gauche * {
-  color: white;
+    color: white;
 }
 
 section.section_contact .gauche div {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 section.section_contact .gauche h3 {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 section.section_contact .gauche img {
-  height: 15px;
-  width: 15px;
-  margin-right: 15px;
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
 }
 
 section.section_contact .gauche a {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 section.section_contact .gauche div {
-  display: flex;
+    display: flex;
 }
 
 section.section_contact .gauche .adresse a {
-  display: block;
-  width: 275px;
+    display: block;
+    width: 275px;
 }
 
-
 section.section_contact .formulaire {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: initial;
-  justify-content: space-between;
-  padding: 50px;
-  background-color: white;
-  box-shadow: 0px 6px 30px #00000029;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.10), 0 1px 5px rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: initial;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 6px 30px #00000029;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.10), 0 1px 5px rgba(0, 0, 0, 0.30);
 }
 
 section.section_contact label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 25px;
-  width: calc(50% - 25px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: calc(50% - 25px);
 }
 
 section.section_contact .wpcf7-form-control.has-spinner.wpcf7-submit {
-  width: 100%;
-  color: white;
-  background-color: var(--couleur-2);
-  right: pointer;
-  max-width: 700px;
-  margin: auto;
-  padding: 15px 10px;
-  -webkit-appearance: none;
-  text-indent: 0;
-  text-transform: uppercase;
-  font-family: var(--police--NunitoSans_10pt-ExtraBoldItalic);
-  cursor: pointer;
+    width: 100%;
+    color: white;
+    background-color: var(--couleur-2);
+    right: pointer;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px 10px;
+    -webkit-appearance: none;
+    text-indent: 0;
+    text-transform: uppercase;
+    font-family: var(--police--NunitoSans_10pt-ExtraBoldItalic);
+    cursor: pointer;
 }
 
 section.section_contact .wpcf7-form-control.wpcf7-textarea {
-  width: calc(100% - 20px);
-  padding: 10px;
-  border-radius: 10px;
-  text-indent: 20px;
-  background-color: var(--couleur-4);
-  border: none;
-  color: var(--couleur-7);
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    text-indent: 20px;
+    background-color: var(--couleur-4);
+    border: none;
+    color: var(--couleur-7);
 }
 
 section.section_contact input {
-  padding: 12px 10px;
-  border-radius: 30px;
-  border: none;
-  text-indent: 20px;
-  width: calc(100% - 20px);
-  background-color: var(--couleur-4);
-  color: var(--couleur-7);
-  font-family: var(--police-Quicksand-Bold);
-  font-size: 14px;
+    padding: 12px 10px;
+    border-radius: 30px;
+    border: none;
+    text-indent: 20px;
+    width: calc(100% - 20px);
+    background-color: var(--couleur-4);
+    color: var(--couleur-7);
+    font-family: var(--police-Quicksand-Bold);
+    font-size: 14px;
 }
 
 section.section_contact input::placeholder {
-  color: var(--couleur-7);
+    color: var(--couleur-7);
 }
 
 section.section_contact .formulaire br {
-  display: none;
+    display: none;
 }
 
 section.section_contact .formulaire .sujet,
 .formulaire .message {
-  width: 100%;
+    width: 100%;
 }
 
 section.section_contact .formulaire .sujet input {
-  width: calc(100% - 20px);
+    width: calc(100% - 20px);
 }
 
 section.section_contact textarea:focus-visible,
 section.section_contact input:focus-visible {
-  outline: var(--couleur-5) 1px solid;
+    outline: var(--couleur-5) 1px solid;
 }
 
 section.section_contact .wpcf7-form-control-wrap {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 section.section_contact .formulaire span {
-  width: calc(50% - 13px);
-  margin-bottom: 25px;
+    width: calc(50% - 13px);
+    margin-bottom: 25px;
 }
 
 section.section_contact .wpcf7-checkbox,
 section.section_contact .wpcf7-checkbox .first {
-  width: 100% !important;
-  margin: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
 }
 
 section.section_contact .wpcf7-checkbox label {
-  width: 100% !important;
-  flex-direction: row !important;
-  align-items: center;
-  margin: 0 !important;
-  align-items: flex-start;
+    width: 100% !important;
+    flex-direction: row !important;
+    align-items: center;
+    margin: 0 !important;
+    align-items: flex-start;
 }
 
 section.section_contact .wpcf7-checkbox input {
-  width: max-content !important;
-  margin-right: 10px;
-  margin-top: 2px;
+    width: max-content !important;
+    margin-right: 10px;
+    margin-top: 2px;
 }
 
 section.section_contact .wpcf7-checkbox label span {
-  margin: 0 !important;
-  width: max-content !important;
-  font-size: 12px;
+    margin: 0 !important;
+    width: max-content !important;
+    font-size: 12px;
 }
 
 section.section_contact span.wpcf7-form-control-wrap:nth-child(9) {
-  width: 100%;
+    width: 100%;
 }
 
 section.section_contact span.wpcf7-form-control-wrap:nth-child(11) {
-  width: 100%;
-  margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 section.section_contact span.wpcf7-form-control-wrap:nth-child(13) {
-  width: 100%;
-  margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 section.section_contact .wpcf7-not-valid-tip {
-  width: 90% !important;
-  margin: 10px 5% 0 !important;
+    width: 90% !important;
+    margin: 10px 5% 0 !important;
 }
 
 section.section_contact .wpcf7-spinner {
-  position: absolute;
-  bottom: 0;
-  width: auto !important;
+    position: absolute;
+    bottom: 0;
+    width: auto !important;
 }
 
-
 .section_contact .adresse {
-  pointer-events: none;
+    pointer-events: none;
 }
 
 
 /* Page contact */
+
 #main-contact section.section_contact .droite {
-  position: initial;
+    position: initial;
 }
 
 #main-contact .section_contact {
-  padding-top: 175px;
-  align-items: initial;
-  justify-content: space-between;
+    padding-top: 175px;
+    align-items: initial;
+    justify-content: space-between;
 }
 
 #main-contact .bloc-gauche {
-  flex-direction: column;
-  margin-top: 0;
+    flex-direction: column;
+    margin-top: 0;
 }
 
 #main-contact section.section_contact .gauche a {
-  margin-left: 0px;
+    margin-left: 0px;
 }
 
 #main-contact .bloc-gauche button {
-  color: var(--couleur-2) !important;
-  margin-top: 25px;
-  background-color: white;
-  border: 2px solid var(--couleur-1);
-  text-transform: uppercase;
+    color: var(--couleur-2) !important;
+    margin-top: 25px;
+    background-color: white;
+    border: 2px solid var(--couleur-1);
+    text-transform: uppercase;
 }
 
 #main-contact h1 {
-  text-transform: initial;
-  margin-bottom: 25px;
+    text-transform: initial;
+    margin-bottom: 25px;
 }
 
 #main-contact h2 {
-  font-size: 40px;
-  margin-bottom: 25px;
-  text-transform: initial;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: initial;
 }
 
 #main-contact .texte {
-  width: 80%;
+    width: 80%;
 }
 
 .wpcf7-response-output {
-  color: white;
-  text-shadow: 0 0 2px black;
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 
 
 /************* MEDIA *************/
-@media screen and (max-width: 1400px) {
-  section.section_contact .droite {
-    right: 5vw;
-    width: 35vw;
-    min-width: 550px;
-  }
 
-  section.section_contact {
-    padding-left: 5%;
-  }
+@media screen and (max-width: 1400px) {
+    section.section_contact .droite {
+        right: 5vw;
+        width: 35vw;
+        min-width: 550px;
+    }
+    section.section_contact {
+        padding-left: 5%;
+    }
 }
 
 @media screen and (max-width: 1150px) {
-  #main-contact section.section_contact .gauche {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  #main-contact .section_contact {
-    flex-wrap: wrap;
-  }
-
-  #main-contact .bloc-gauche {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  #main-contact .texte {
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-  }
-
-  #main-contact section.section_contact .droite {
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-  }
+    #main-contact section.section_contact .gauche {
+        width: 100%;
+        max-width: 100%;
+    }
+    #main-contact .section_contact {
+        flex-wrap: wrap;
+    }
+    #main-contact .bloc-gauche {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #main-contact .texte {
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+    #main-contact section.section_contact .droite {
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-  .section_contact {
-    flex-wrap: wrap-reverse;
-    position: relative;
-    justify-content: center;
-    padding-right: 5%;
-  }
-
-  section.section_contact .gauche h3 {
-    position: absolute;
-    top: 50px;
-    transform: translate(-50%, 0%);
-    left: 50%;
-    width: 90%;
-    text-align: center;
-  }
-
-  section.section_contact .droite {
-    position: relative;
-    width: 80vw;
-    right: auto;
-    min-width: auto;
-    margin-bottom: 50px;
-    margin-top: 25px;
-  }
-
-  section.section_contact .gauche {
-    width: 80vw;
-    max-width: 80vw;
-  }
-
-  #main-contact .section_contact {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  #main-contact h2 {
-    font-size: 40px;
-  }
+    .section_contact {
+        flex-wrap: wrap-reverse;
+        position: relative;
+        justify-content: center;
+        padding-right: 5%;
+    }
+    section.section_contact .gauche h3 {
+        position: absolute;
+        top: 50px;
+        transform: translate(-50%, 0%);
+        left: 50%;
+        width: 90%;
+        text-align: center;
+    }
+    section.section_contact .droite {
+        position: relative;
+        width: 80vw;
+        right: auto;
+        min-width: auto;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+    section.section_contact .gauche {
+        width: 80vw;
+        max-width: 80vw;
+    }
+    #main-contact .section_contact {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #main-contact h2 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  section.section_contact .formulaire {
-    padding: 50px 25px;
-  }
-
-  #main-contact h2 {
-    font-size: 35px;
-  }
+    section.section_contact .formulaire {
+        padding: 50px 25px;
+    }
+    #main-contact h2 {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 500px) {
-  section.section_contact .droite {
-    width: 90vw;
-    margin-bottom: 25px;
-    margin-top: 10px;
-  }
-
-  section.section_contact .gauche {
-    width: 90vw;
-    max-width: 90vw;
-  }
-
-  #main-contact .section_contact {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
+    section.section_contact .droite {
+        width: 90vw;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    section.section_contact .gauche {
+        width: 90vw;
+        max-width: 90vw;
+    }
+    #main-contact .section_contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 }
 
 @media screen and (max-width: 450px) {
-  section.section_contact label {
-    width: 100%;
-  }
-
-  section.section_contact .formulaire span {
-    width: 100%;
-  }
-
-  #main-contact h2 {
-    font-size: 30px;
-  }
-
+    section.section_contact label {
+        width: 100%;
+    }
+    section.section_contact .formulaire span {
+        width: 100%;
+    }
+    #main-contact h2 {
+        font-size: 30px;
+    }
 }
