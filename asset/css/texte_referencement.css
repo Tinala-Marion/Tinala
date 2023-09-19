@@ -1,0 +1,54 @@
+.section-texte_referencement .maxWidth{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-texte_referencement .maxWidth h2{
+    font-size: 2.5rem;
+}
+
+.section-texte_referencement .maxWidth .descriptions{
+    display: flex;
+    gap: 4rem;
+}
+.section-texte_referencement .maxWidth .descriptions .colonne{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 45rem;
+}
+.section-texte_referencement .maxWidth .descriptions .colonne p{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1070px) {
+    .section-texte_referencement .maxWidth h2{
+        text-align: center;
+    }
+    .section-texte_referencement .maxWidth .descriptions{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .section-texte_referencement .maxWidth .descriptions .colonne p{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    .section-texte_referencement .maxWidth h2{
+        font-size: 2rem;
+    }
+    .section-texte_referencement .maxWidth .descriptions .colonne p{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-texte_referencement .maxWidth h2{
+        font-size: 1.5rem;
+    }
+    .section-texte_referencement .maxWidth .descriptions .colonne p{
+        font-size: .8rem;
+    }
+}
