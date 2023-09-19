@@ -1,0 +1,126 @@
+section.faq {
+    text-align: center;
+    background-color: var(--couleur-4);
+    position: relative;
+    z-index: 20;
+}
+
+
+section.faq .div-a {
+    margin: 3px;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+}
+
+section.faq .bloc-slide {
+    background: linear-gradient(to top, #00000069, transparent 150px);
+    padding: 15px 10px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 10px;
+    height: 270px;
+    justify-content: center;
+}
+
+section.faq .bloc-slide p {
+    color: white;
+}
+
+section.faq .categorie_question {
+    margin: 50px 0;
+    position: relative;
+    width: 100vw;
+    margin-left: -5vw;
+}
+
+section.faq h2 {
+    margin-bottom: 15px;
+}
+
+
+section.faq .swiper-button-next,
+section.faq .swiper-button-prev {
+    display: none;
+}
+
+section.faq button {
+    background-color: var(--couleur-2);
+}
+
+main#page-a-propos section.faq button,
+main.single_product section.faq button {
+    background-color: var(--couleur-3);
+}
+
+
+
+
+/******* MEDIA *******/
+
+
+
+@media screen and (min-width: 769px) {
+
+    section.faq .categorie_question {
+        width: 100%;
+        margin-left: 0vw;
+    }
+
+    section.faq .swiper-button-next,
+    section.faq .swiper-button-prev {
+        display: initial;
+    }
+
+    section.faq .swiper-button-next::after,
+    section.faq .swiper-button-prev::after {
+        font-size: 30px;
+        display: none;
+    }
+
+    section.faq .swiper-button-next,
+    section.faq .swiper-button-prev {
+        color: black;
+    }
+
+    section.faq #faq-next {
+        right: -6vw;
+    }
+
+    section.faq #faq-prev {
+        left: -6vw;
+    }
+
+
+    section.faq .div-a {
+        height: 400px;
+    }
+
+    main#page-a-propos section.faq .vert-img,
+    main.single_product section.faq .vert-img {
+        display: none;
+    }
+
+    main#main-content-accueil section.faq .jaune-img {
+        display: none;
+    }
+
+    section.faq .bloc-slide {
+        height: 370px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    section.faq #faq-next {
+        right: -4vw;
+    }
+
+    section.faq #faq-prev {
+        left: -4vw;
+    }
+}

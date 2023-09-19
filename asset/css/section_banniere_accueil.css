@@ -1,0 +1,358 @@
+main#main-content-accueil .banniere {
+  padding: 50px 15%;
+  height: 41vw;
+  display: flex;
+  align-items: center;
+}
+
+main#main-content-accueil .banniere .banniere_content {
+  width: 600px;
+}
+
+
+main#main-content-accueil .banniere .banniere_content h1 {
+  font-weight: inherit;
+  margin-bottom: 35px;
+  line-height: 60px;
+  text-shadow: 0 0 2px black;
+}
+
+
+main#main-content-accueil .banniere .banniere_content .home p {
+  color: white;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 2px black;
+}
+
+main#main-content-accueil .banniere .banniere_content button {
+  background-color: var(--couleur-2);
+  padding: 15px 40px;
+}
+
+main#main-content-accueil .banniere .banniere_content button a {
+  color: white;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width:768px) {
+  main#main-content-accueil .banniere {
+    justify-content: center;
+    min-height: 100vw;
+  }
+
+  main#main-content-accueil .banniere .banniere_content {
+    width: 350px;
+    margin-top: -25vw;
+
+  }
+
+  main#main-content-accueil .banniere .banniere_content button {
+    width: 100%;
+  }
+
+  main#main-content-accueil .banniere .banniere_content * {
+    text-align: center;
+  }
+
+  main#main-content-accueil .banniere .banniere_content h1 {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  main#main-content-accueil .banniere .banniere_content h1 {
+    line-height: 42px;
+  }
+
+  main#main-content-accueil .banniere .banniere_content {
+    margin-top: -10vw;
+  }
+
+  main#main-content-accueil .banniere .banniere_content .home p {
+    line-height: 25px;
+  }
+
+  main#main-content-accueil .banniere {
+    padding: 0 10%;
+    height: 171.6vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ */
+
+
+
+main#main-faq .banniere {
+  padding: 0 15%;
+  height: 27.7vw;
+  display: flex;
+  align-items: center;
+}
+
+main#main-faq .banniere * {
+  color: white;
+}
+
+main#main-faq .banniere .banniere_content {
+  width: 500px;
+}
+
+
+main#main-faq .banniere .banniere_content h1 {
+  font-weight: inherit;
+  margin-bottom: 20px;
+  text-transform: unset;
+}
+
+
+main#main-faq .banniere .banniere_content .home p {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+main#main-faq .banniere .banniere_content button {
+  background-color: var(--couleur-1);
+  padding: 15px 40px;
+}
+
+main#main-faq .banniere .banniere_content button a {
+  color: white;
+  text-transform: uppercase;
+  v
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+
+  main#main-faq .banniere .banniere_content h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  main#main-faq .banniere .banniere_content button a {
+    font-size: 12px;
+  }
+
+  main#main-faq .banniere .banniere_content button {
+    padding: 10px 40px;
+  }
+
+  main#main-faq .banniere .banniere_content .home p {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  main#main-faq .banniere .banniere_content p {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  main#main-faq .banniere {
+    height: 69.5vw;
+    justify-content: center;
+  }
+
+  main#main-faq .banniere .banniere_content {
+    width: 350px;
+  }
+
+  main#main-faq .banniere .banniere_content button {
+    width: 100%;
+  }
+
+  main#main-faq .banniere .banniere_content * {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  main#main-faq .banniere {
+    padding: 50px 10%;
+  }
+}
+
+
+
+/* A Propos */
+
+
+
+main#page-a-propos .banniere {
+  padding: 0 15%;
+  height: 38.17vw;
+  display: flex;
+  align-items: center;
+}
+
+main#page-a-propos .banniere .banniere_content {
+  width: 600px;
+  margin-top: 50px
+}
+
+main#page-a-propos .banniere .banniere_content>p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main#page-a-propos .banniere .banniere_content h1 {
+  font-weight: inherit;
+  margin-bottom: 10px;
+  text-transform: unset;
+  font-size: 50px;
+}
+
+
+main#page-a-propos .banniere .banniere_content .home p {
+  color: white;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 600;
+}
+
+main#page-a-propos .banniere .banniere_content .home em {
+  font-family: cursive;
+}
+
+main#page-a-propos .banniere .banniere_content .home p span {
+  font-family: var(--police-Caveat-VariableFont_wght);
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+
+main#page-a-propos .banniere .banniere_content button {
+  background-color: var(--couleur-2);
+  padding: 15px 40px;
+}
+
+main#page-a-propos .banniere .banniere_content button a {
+  color: white;
+}
+
+@media screen and (max-width:1500px) {
+
+
+  main#page-a-propos .banniere .banniere_content h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  main#page-a-propos .banniere .banniere_content button a {
+    font-size: 12px;
+  }
+
+  main#page-a-propos .banniere .banniere_content button {
+    padding: 10px 40px;
+  }
+
+  main#page-a-propos .banniere .banniere_content .home p {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  main#page-a-propos .banniere .banniere_content p {
+    font-size: 12px;
+  }
+
+}
+
+
+@media screen and (max-width:1450px) {
+  main#page-a-propos .banniere .banniere_content {
+    width: 400px;
+  }
+
+  main#page-a-propos .banniere .banniere_content {
+    margin-top: 100px;
+  }
+
+  main#page-a-propos .banniere {
+    min-height: 38.17vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  main#page-a-propos .banniere .banniere_content {
+    width: 400px;
+  }
+
+  main#page-a-propos .banniere {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  main#page-a-propos .banniere .banniere_content {
+    margin-top: 50px;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  main#page-a-propos .banniere {
+    height: 105vw;
+    justify-content: center;
+    max-height: 500px;
+  }
+
+  main#page-a-propos .banniere .banniere_content {
+    width: 400px;
+    margin-top: 0px;
+
+  }
+
+  main#page-a-propos .banniere .banniere_content button {
+    width: 100%;
+  }
+
+  main#page-a-propos .banniere .banniere_content * {
+    text-align: center;
+  }
+
+  main#page-a-propos .banniere .banniere_content h1 {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  main#page-a-propos .banniere .banniere_content .home p {
+    line-height: 20px;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+
+  main#page-a-propos .banniere {
+    padding: 0 10%;
+  }
+}

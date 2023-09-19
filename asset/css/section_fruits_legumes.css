@@ -1,0 +1,75 @@
+/* Textes-1 */
+
+.textes-1 {
+    text-align: center;
+    background-color: var(--couleur-11);
+}
+
+.textes-1 .qui-quoi {
+    margin-top: 75px;
+}
+
+.textes-1 .bloc-qui-quoi {
+    display: flex;
+    text-align: initial;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.textes-1 .bloc-qui-quoi .sous-bloc {
+    width: calc(50% - 50px);
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.textes-1 .bloc-qui-quoi .texte {
+    background-color: var(--couleur-4);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: -90px;
+}
+
+.textes-1 .bloc-qui-quoi .texte h3 {
+    margin-bottom: 20px;
+}
+
+.textes-1 .bloc-qui-quoi .texte .description {
+    font-size: 20px;
+}
+
+.textes-1 button {
+    background-color: var(--couleur-2);
+    margin-top: 25px;
+}
+
+.textes-1 button:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 1600px) {
+    .textes-1 .bloc-qui-quoi .sous-bloc {
+        flex-direction: column;
+    }
+
+    .textes-1 .bloc-qui-quoi .texte {
+        margin-left: 0;
+        max-width: 75%;
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .textes-1 .bloc-qui-quoi .sous-bloc {
+        width: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textes-1 .bloc-qui-quoi .sous-bloc {
+        width: 100%;
+    }
+}

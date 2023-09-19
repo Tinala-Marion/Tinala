@@ -1,0 +1,16 @@
+section.avis_clients {
+    text-align: center;
+}
+
+section.avis_clients h2 {
+    margin-bottom: 15px;
+}
+
+
+
+
+/***** MEDIA *****/
+
+
+
+@media screen and (min-width: 1024px) {}

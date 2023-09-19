@@ -1,0 +1,29 @@
+/* Textes-5 */
+.textes-5 {
+    background-position: left;
+    background-size: cover;
+}
+
+.textes-5 h2 {
+    margin-bottom: 35px;
+}
+
+.textes-5 .bloc {
+    width: 500px;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.textes-5 p {
+    font-size: 20px;
+}
+
+.textes-5 p.gras {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .textes-5 p {
+        font-size: 16px;
+    }
+}
