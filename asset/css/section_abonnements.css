@@ -38,4 +38,16 @@ section.abonnements .sous-bloc-abonnements .gras {
 
 @media screen and (max-width: 1300px) {}
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    section.abonnements .sous-bloc-abonnements {
+        width: calc(50% - 125px);
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section.abonnements .sous-bloc-abonnements {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

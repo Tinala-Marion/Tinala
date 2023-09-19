@@ -24,6 +24,10 @@
     margin-top: 15px;
 }
 
+.textes-1 .bloc-qui-quoi .sous-bloc img {
+    width: 200%;
+}
+
 .textes-1 .bloc-qui-quoi .texte {
     background-color: var(--couleur-4);
     box-shadow: 0px 3px 6px #00000029;
