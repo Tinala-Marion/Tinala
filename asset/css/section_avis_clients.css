@@ -1,5 +1,6 @@
 section.avis_clients {
     text-align: center;
+    background-color: var(--couleur-11);
 }
 
 section.avis_clients h2 {
@@ -7,10 +8,6 @@ section.avis_clients h2 {
 }
 
 
-
-
 /***** MEDIA *****/
-
-
 
 @media screen and (min-width: 1024px) {}

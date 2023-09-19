@@ -1,7 +1,6 @@
 section.abonnements {
     text-align: center;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--couleur-12);
 }
 
 section.abonnements h2 {
@@ -108,7 +107,6 @@ section.abonnements .engagement {
     font-size: 10px;
 }
 
-
 section.abonnements .prix-boite.prix-abonnement,
 section.abonnements .prix-boite.prix-abonnement * {
     color: var(--couleur-2);
@@ -172,21 +170,18 @@ section.abonnements .colonne-3 .info ul {
     list-style-image: url(../../../../uploads/2023/09/valider.svg);
 }
 
-
 section.abonnements .info li {
     margin-bottom: 15px;
 }
 
+
 /***** MEDIA *****/
-
-
 
 @media screen and (max-width: 1300px) {
     section.abonnements .info {
         width: 100%;
         margin-top: 35px;
     }
-
     section.abonnements .sous-sous-bloc {
         flex-direction: column;
         align-items: center;
@@ -198,7 +193,6 @@ section.abonnements .info li {
         width: 100%;
         max-width: 500px;
     }
-
     section.abonnements .sous-sous-bloc img {
         width: 150px;
         height: 220.5px;
