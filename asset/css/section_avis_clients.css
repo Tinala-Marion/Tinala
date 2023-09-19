@@ -3,6 +3,10 @@ section.avis_clients {
     background-color: var(--couleur-11);
 }
 
+section.avis_clients * {
+    color: white;
+}
+
 section.avis_clients h2 {
     margin-bottom: 15px;
 }
