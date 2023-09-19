@@ -1,15 +1,12 @@
 section.abonnements {
     text-align: center;
-    background-color: var(--couleur-12);
 }
 
 section.abonnements h2 {
     margin-bottom: 15px;
-    color: white;
 }
 
 section.abonnements h3 {
-    color: white;
     font-family: var(--police-Quicksand-Light);
     margin-bottom: 75px;
 }
