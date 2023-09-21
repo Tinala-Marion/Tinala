@@ -1,0 +1,89 @@
+.section-banniere_normale{
+    padding: 0;
+}
+.section-banniere_normale .maxWidth{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 6rem 10%;
+}
+.section-banniere_normale .maxWidth .bgcImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section-banniere_normale .maxWidth .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    gap: 1.5rem;
+}
+.section-banniere_normale .maxWidth .texts h1{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--police-worksans-regular);
+    font-weight: 800;
+    color: var(--couleur-10);
+}
+.section-banniere_normale .maxWidth .texts h1 img{
+    height: 3rem;
+    object-fit: contain;
+}
+.section-banniere_normale .maxWidth .texts p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--police-worksans-bold);
+    color: var(--couleur-10);
+}
+.section-banniere_normale .maxWidth .texts p img{
+    height: 1rem;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 720px) {
+    .section-banniere_normale .maxWidth .texts h1{
+        font-size: 2.5rem;
+    }
+    .section-banniere_normale .maxWidth .texts h1 img{
+        height: 2.5rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-banniere_normale .maxWidth .texts h1{
+        font-size: 2rem;
+    }
+    .section-banniere_normale .maxWidth .texts h1 img{
+        height: 2rem;
+    }
+    .section-banniere_normale .maxWidth .texts p{
+        font-size: .9rem;
+    }
+    .section-banniere_normale .maxWidth .texts p img{
+        height: .9rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section-banniere_normale .maxWidth .texts h1{
+        font-size: 1.8rem;
+    }
+    .section-banniere_normale .maxWidth .texts h1 img{
+        height: 1.7rem;
+    }
+    .section-banniere_normale .maxWidth .texts p{
+        font-size: .8rem;
+    }
+    .section-banniere_normale .maxWidth .texts p img{
+        height: .8rem;
+    }
+    .section-banniere_normale .maxWidth{
+        padding: 4rem 10%;
+    }
+}
