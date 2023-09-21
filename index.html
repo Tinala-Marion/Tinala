@@ -43,7 +43,15 @@
         <!-- Include de la section 1 -->
         <div id="section1"></div>
 
-        <script src="https://tinala-marion.github.io/Tinala/asset/js/script.js"></script>
+        <script>
+            // Importe la section 1
+            import section1 from "./section/section1/section1.html";
+
+            // Ajoute la section 1 à l'élément `section1`
+            document.querySelector("#section1").appendChild(
+                section1
+            );
+        </script>
 
         <section class="banniere" style="background-image: url(https://tinala-marion.github.io/Tinala/asset/img/canva18.png);">
             <div class="banniere_content">
