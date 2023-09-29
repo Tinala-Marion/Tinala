@@ -34,18 +34,23 @@
     padding: 35px;
     height: 10vw;
     transition: all 0.2s ease-in;
+    z-index: 3;
+    position: relative;
 }
 
 .bloc-article h2 {
     color: white;
     text-shadow: 0 0 2px black;
     margin: 0;
+    font-size: 25px;
 }
 
 .liste_articles .liste .article p {
     padding: 35px;
     margin: 0;
     background-color: white;
+    position: relative;
+    z-index: 10;
 }
 
 .liste_articles .liste .article .lire-plus {
@@ -54,6 +59,9 @@
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease-in;
+    display: block;
+    margin: 25px auto 0;
+    width: max-content;
 }
 
 .liste_articles .liste .article:hover .lire-plus {
@@ -62,4 +70,25 @@
 
 .liste_articles .liste .article:hover .bloc-article {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1400px) {
+    .liste_articles .liste .article {
+        width: calc(50% - 30px);
+    }
+    .bloc-article h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloc-article h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .liste_articles .liste .article {
+        width: 100%;
+    }
 }
