@@ -14,7 +14,6 @@
         background-color: white;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 10px;
-        width: calc(25% - 115px);
     }
     
     section.avis_clients .sous-bloc-avis * {
@@ -28,20 +27,4 @@
     
     section.avis_clients h2 {
         margin-bottom: 15px;
-    }
-    /***** MEDIA *****/
-    
-    @media screen and (max-width: 1024px) {
-        section.avis_clients .bloc-avis {
-            flex-wrap: wrap;
-        }
-        section.avis_clients .sous-bloc-avis {
-            width: calc(50% - 115px);
-        }
-    }
-    
-    @media screen and (max-width: 500px) {
-        section.avis_clients .sous-bloc-avis {
-            width: 100%;
-        }
     }

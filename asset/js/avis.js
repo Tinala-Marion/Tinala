@@ -7,30 +7,30 @@ document.addEventListener("DOMContentLoaded", function() {
             delay: 4000,
         },
         preloadImages: true,
-        slidesPerView: 5,
+        slidesPerView: 4,
         spaceBetween: 16,
         pagination: {
             el: '.avis-pagination',
         },
         breakpoints: {
-            1300: {
+            2000: {
                 slidesPerView: 5,
                 draggable: true,
             },
-            1100: {
+            1500: {
                 slidesPerView: 4,
                 draggable: true,
             },
-            720: {
+            1024: {
                 slidesPerView: 3,
                 draggable: true,
             },
-            400: {
+            768: {
                 slidesPerView: 2,
                 draggable: true,
             },
-            100: {
-                slidesPerView: 1.1,
+            500: {
+                slidesPerView: 1.4,
                 draggable: true,
             },
         }
