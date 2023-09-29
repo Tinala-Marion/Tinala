@@ -7,31 +7,36 @@ document.addEventListener("DOMContentLoaded", function() {
             delay: 4000,
         },
         preloadImages: true,
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 16,
+        draggable: true,
         pagination: {
             el: '.avis-pagination',
         },
         breakpoints: {
             2000: {
                 slidesPerView: 5,
-                draggable: true,
+                centeredSlides: true,
             },
             1500: {
                 slidesPerView: 4,
-                draggable: true,
+                centeredSlides: true,
             },
             1024: {
                 slidesPerView: 3,
-                draggable: true,
+                centeredSlides: true,
             },
             768: {
                 slidesPerView: 2,
-                draggable: true,
+                centeredSlides: true,
             },
             500: {
                 slidesPerView: 1.4,
-                draggable: true,
+                centeredSlides: true,
+            },
+            0: {
+                slidesPerView: 1.4,
+                centeredSlides: true,
             },
         }
     });
