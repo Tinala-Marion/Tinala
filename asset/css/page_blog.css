@@ -1,3 +1,7 @@
+.liste_articles h1 {
+    color: var(--couleur-13);
+}
+
 .liste_articles {
     text-align: center;
 }
@@ -10,17 +14,38 @@
 }
 
 .liste_articles .liste .article {
-    width: calc(50% - 25px);
+    width: calc(50% - 95px);
     box-shadow: 0px 3px 3px black;
     border-radius: 25px;
     margin-bottom: 50px;
     background-size: cover;
     background-position: center;
+    padding: 35px;
+    overflow: hidden;
+}
+
+.liste_articles .liste .article p,
+.liste_articles .liste .article h2 {
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 
 .liste_articles .liste span {
     display: block;
-    color: orange;
     font-weight: bold;
     margin-top: 15px;
+    color: var(--couleur-13);
+    width: max-content;
+    margin: 15px auto 0;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease-in;
+    text-shadow: 0 0 2px black;
+}
+
+.liste_articles .liste .article:hover span {
+    border-bottom: 1px solid var(--couleur-13);
+}
+
+.liste_articles .liste .article:hover .bloc-article {
+    scale: 1.1;
 }
